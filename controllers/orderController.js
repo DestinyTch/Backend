@@ -2,7 +2,7 @@ import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 
 
-const frontend_url = "http://localhost:5174";
+const frontend_url = "https://impulsee.pro/";
 const placeOrder = async (req, res) => {
   try {
     const newOrder = new orderModel({
