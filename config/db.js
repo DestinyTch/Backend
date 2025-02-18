@@ -1,4 +1,4 @@
-zzimport mongoose from "mongoose";
+import mongoose from "mongoose";
 
 export const connectDB = async () => {
     // Define a variable for retry attempts
