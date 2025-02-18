@@ -4,7 +4,7 @@ export const connectDB = async () => {
     // Define a variable for retry attempts
     let retries = 0;
     const maxRetries = 10; // Set a maximum retry limit to prevent infinite attempts
- 
+
     const connectWithRetry = async () => {
         try {
             // Wait for MongoDB connection to complete
