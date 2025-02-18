@@ -8,7 +8,7 @@ export const connectDB = async () => {
     const connectWithRetry = async () => {
         try {
             // Wait for MongoDB connection to complete
-            await mongoose.connect('mongodb+srv://admin:hXj@tbGicZA8Nb4@destinytch.wnetl.mongodb.net/?retryWrites=true&w=majority&appName=DestinyTch');
+            await mongoose.connect('mongodb+srv://admin:DestinyTch@destinytch.wnetl.mongodb.net/?retryWrites=true&w=majority&appName=DestinyTch');
             console.log("DB Connected");
         } catch (error) {
             // Catch and log any errors
